@@ -65,10 +65,10 @@ export default {
         // },
 
         //Calling these with mapState
-        //here first state.todos here todos is the module name when we declare it
+        //here first state.todos.todos here first todos is the module name when we declare it
 
-        ...mapState({
-            todoList: state => state.todos.todos,
+        ...mapState('todos',{
+            todoList: state => state.todos,
         }),
 
         // Instead of todos write multiple times ""donetodoList : 'todos/doneTodoList', ""
