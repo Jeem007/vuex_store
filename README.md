@@ -1,4 +1,4 @@
-# project_1
+# VUEX_STORE
 
 ## Project setup
 ```
