@@ -7,6 +7,7 @@
     </div>
 </div>
 </template>
+<!-- Test -->
 
 <script>
 //Import mapMutations when mapMutation used
